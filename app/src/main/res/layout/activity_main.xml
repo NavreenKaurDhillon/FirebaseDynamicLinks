@@ -9,10 +9,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="https://fbdynamiclinkk.page.link/appscreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/shareBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
